@@ -18,7 +18,7 @@ GitHub Organization `nposub-guild` 向けにローカルで構築した静的サ
 | `index.html` | トップ（額装ヒーロー／お知らせ最新3件／活動実績カード／PROJECT 子どもプログラミング教室／GUILDについて／公式SNS・お問い合わせ） |
 | `work.html` | WORK：私たちのやれること①〜③ |
 | `about.html` | ABOUT：団体紹介＋メンバー紹介（6名） |
-| `news.html` | NEWS一覧（全6件、行リスト形式） |
+| `news.html` | NEWS一覧（全7件、行リスト形式） |
 | `news/*.html` | 記事ページ（旧サイトの原文＋画像をそのまま移行） |
 | `assets/style.css` | 共通スタイル（guild3cha版と共通形式。NPOSUB用の追加分は末尾に明記） |
 | `assets/site.js` | モバイルメニュー／テーマ切替／トップへ戻るボタン |
@@ -34,6 +34,7 @@ GitHub Organization `nposub-guild` 向けにローカルで構築した静的サ
 - `news/programming-class-3.html` ← 第三回 子どもプログラミング教室（2026.07.12公開）
 - `news/programming-class-4.html` ← 第四回 子どもプログラミング教室（2026.07.26公開）
 - `news/guild-base-start.html` ← 「せたがやひみつ基地 GUILD-BASE」がスタートします（2026.11.03公開）
+- `news/site-renewal.html` ← 公式サイト移転のお知らせ（2026.11.03公開）
 
 ## ローカルで確認する方法
 

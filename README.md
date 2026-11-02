@@ -1,11 +1,10 @@
-# 非営利学生団体GUILD 公式サイト（GitHub Pages版・ローカル構築中）
+# 非営利学生団体GUILD 公式サイト（GitHub Pages版）
 
 旧サイト https://nposub-guild.amebaownd.com/ （Ameba Ownd）から移転するために、
 GitHub Organization `nposub-guild` 向けにローカルで構築した静的サイトです。
 
-**現在の状態：ローカルのみ。まだ公開（push）はしていません。**
-公開先の想定URL： https://nposub-guild.github.io/
-（リポジトリ名 `nposub-guild.github.io` で作成し、この中身をそのまま push する想定）
+**公開中： https://nposub-guild.github.io/**
+（2026-11-03に Organization `nposub-guild` のリポジトリ `nposub-guild.github.io` へ push して公開）
 
 ## 構成
 
@@ -34,9 +33,7 @@ python3 -m http.server 8000
 # ブラウザで http://localhost:8000/ を開く
 ```
 
-## 公開する時の手順（まだ未実施）
+## 更新方法
 
-1. Organization `nposub-guild` に Public リポジトリ `nposub-guild.github.io` を作成
-2. このディレクトリの中身を push
-3. リポジトリ Settings → Pages で公開を確認（`*.github.io` リポジトリは自動で有効）
-4. 公開後に旧サイト・SNS（X @SUBNPO_G / Instagram @subnpo_g）のリンクを新URLへ差し替え
+1. このリポジトリのファイルを編集して main ブランチへ push すると、数分で自動的にサイトへ反映されます
+2. 旧サイト・SNS（X @SUBNPO_G / Instagram @subnpo_g）のリンクは、順次新URLへ差し替えてください

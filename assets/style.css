@@ -304,3 +304,19 @@ header{transition:background-color .25s ease;}
   .members{grid-template-columns:1fr 1fr;}
 }
 @media(max-width:460px){.members{grid-template-columns:1fr;}}
+
+/* --- v5: header title logo (full horizontal logo, like the footer) --- */
+.logo-link{display:inline-flex;align-items:center;line-height:0;}
+.header-logo{height:46px;width:auto;}
+footer img{max-width:86vw;height:54px;width:auto;object-fit:contain;}
+@media(max-width:720px){
+  .header-in{position:static;padding:8px 16px;gap:8px;}
+  .header-in .logo-link{position:static;transform:none;}
+  .header-logo{height:32px;}
+  footer img{height:46px;}
+}
+@media(max-width:380px){
+  .header-logo{height:27px;}
+  .header-cta{padding:5px 8px;}
+  .theme-btn{width:34px;height:34px;}
+}
